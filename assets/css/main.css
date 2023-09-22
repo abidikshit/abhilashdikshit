@@ -3778,3 +3778,19 @@ input, select, textarea {
 			}
 
 		}
+
+		/* Add this CSS to your stylesheet */
+		.education-entry {
+			display: flex;
+			flex-direction: row;
+			margin-bottom: 20px; /* Adjust the margin as needed */
+		}
+
+		.education-text {
+			flex: 1;
+		}
+
+		.education-image {
+			flex: 0;
+			margin-left: 20px; /* Adjust the margin as needed */
+		}
