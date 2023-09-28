@@ -3787,12 +3787,23 @@ input, select, textarea {
 		}
 
 		.education-text {
-			flex: 1;
+			flex: 2; /* Adjust the flex value to control text width */
 		}
 
 		.education-image {
-			flex: 0;
+			flex: 1; /* Adjust the flex value to control image width */
 			margin-left: 20px; /* Adjust the margin as needed */
+			display: flex;
+			justify-content: flex-end; /* Align image to the right within its flex container */
+			align-items: flex-start; /* Align image to the top within its flex container */
 		}
+
+		/* Add this CSS to your stylesheet */
+		#skills {
+			text-align: left; /* Align the text content to the left */
+			margin: 0 auto; /* Center the section horizontally on the page */
+		}
+
+
 
 		
